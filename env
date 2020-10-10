@@ -99,3 +99,14 @@
 # honeypot.name = 'honeypot'
 # honeypot.template = '<label>{label}</label><input type="text" name="{name}" value=""/>'
 # honeypot.container = '<div style="display:none">{template}</div>'
+
+#--------------------------------------------------------------------
+# Email Configuration
+#--------------------------------------------------------------------
+email_config_protocol = 'smtp'
+email_config_SMTPHost = 'smtp.mailtrap.io'
+email_config_SMTPPort = 2525
+email_config_SMTPUser = ''
+email_config_SMTPPass = ''
+email_config_senderMail = ''
+email_config_senderName = 'Test Email'
